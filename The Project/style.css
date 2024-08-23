@@ -1,0 +1,450 @@
+/* Header */
+header {
+  background-color: #f7f9fc;
+  padding: 30px 0;
+  position: relative;
+}
+
+/* padding */
+body {
+  padding-top: 60px; 
+  padding-bottom: 60px; 
+  margin: 0;
+}
+
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+body {
+  padding-top: 60px;
+}
+
+.navbar-brand {
+  font-family: 'Fredoka One', cursive;
+  color: #ff7e8b;
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff7e8b;
+}
+
+
+/* Banner */
+.banner {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../images/headerpic.jpg') no-repeat center center;
+  background-size: cover; 
+  color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+  background-position: center; 
+  background-attachment: fixed; 
+}
+
+
+
+.banner-heading {
+  font-family: 'Fredoka One', cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ff7e8b; 
+}
+
+.banner-para {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px 20px;
+ /* background: rgba(255, 255, 255, 0.8); */
+  border-radius: 8px;
+  color: #333;
+}
+
+.testimonial-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.testimonial-card .avatar {
+  width: 110px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.testimonial-card .card-body {
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 10px;
+}
+
+.testimonial-card h4 {
+  color: #333;
+  font-family: 'Fredoka One', cursive; 
+}
+
+.testimonial-card p {
+  color: #555;
+  font-family: 'Poppins', sans-serif; 
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.dark-grey-text {
+  color: #333;
+}
+
+.fas.fa-quote-left {
+  color: #ff7f50; 
+}
+
+
+
+/* Navbar styles */
+.navbar-brand {
+  font-family: 'Fredoka One', cursive;
+}
+
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.dropdown-menu {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Whatwedo.html */
+.what-we-do {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #ff7e8b; 
+}
+
+.section-intro {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.what-we-do p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.carousel-item h4 {
+  font-family: 'Fredoka One', cursive;
+  color: #ff7e8b;
+}
+
+.carousel-item p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+
+/* YouTube Video Section link */
+.youtube-video {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  background-color: #f7f9fc; 
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Subscription Section */
+.subscription-boxes {
+  padding: 60px 20px;
+}
+
+.subscription-boxes .card {
+  transition: transform 0.3s ease;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.subscription-boxes .card:hover {
+  transform: translateY(-5px);
+}
+
+.subscription-boxes .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.subscription-boxes .card-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.subscription-boxes .price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.subscription-boxes .btn-outline-primary {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  transition: background-color 0.3s, color 0.3s;
+  border-color: #add8e6; 
+  color: #add8e6; 
+}
+
+  .subscription-boxes .btn-outline-primary:hover {
+    background-color: #add8e6; 
+    color: #fff; 
+  }
+
+/* Gallery */
+.gallery-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.gallery-container .col-lg-3,
+.gallery-container .col-md-4,
+.gallery-container .col-sm-6 {
+  padding: 0.25rem; 
+}
+
+.gallery-container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #ff7e8b;
+}
+
+@media (max-width: 768px) {
+  .gallery-container img {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Sign-up & Community  */
+.signup-community {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+}
+
+.signup-community .section-title {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #ff7e8b;
+}
+
+.signup-community .section-intro {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.signup-community .btn-primary {
+  background-color: #ff7e8b;
+  border-color: #ff7e8b;
+}
+
+.signup-community .btn-outline-primary {
+  border-color: #ff7e8b;
+  color: #ff7e8b;
+}
+
+.signup-community .btn-outline-primary:hover {
+  background-color: #ff7e8b;
+  color: #fff;
+}
+
+/* Contact Us */
+.contact-us {
+  background-color: #f7f9fc;
+  padding: 60px 20px;
+}
+
+.section-title {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.5rem;
+  color: #ff7e8b;
+  margin-bottom: 20px;
+}
+
+.section-intro {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+
+.form-group label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+.btn-primary {
+  background-color: #ff7e8b;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #ff5a6d;
+}
+
+.contact-info h4 {
+  font-family: 'Fredoka One', cursive;
+  color: #ff7e8b;
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #333;
+}
+
+.footer {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../images/rainbow.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  padding: 40px 20px;
+}
+
+.footer h5 {
+  color: #ff7e8b;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.footer-link {
+  color: #000000;
+  font-size: 0.85rem;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #ff7e8b;
+  text-decoration: none;
+}
+
+.footer p {
+  color: #000000;
+}
+
+.input-group input {
+  border-radius: 0;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.input-group-append .btn {
+  border-radius: 0;
+  background-color: #ff7e8b;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.input-group-append .btn:hover {
+  background-color: #e67e8b;
+}
+
+.list-inline-item i {
+  transition: color 0.3s;
+}
+
+.list-inline-item a:hover i {
+  color: #ff7e8b;
+}
+
+@media (max-width: 768px) {
+  .footer h5 {
+    color: #ff7e8b;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #333;
+}
+
